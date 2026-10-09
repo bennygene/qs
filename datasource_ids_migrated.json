@@ -1,0 +1,22 @@
+{
+  "datasources": [
+    {
+      "DataSourceId": "65d1ed6a-a1a6-4bc9-afd8-bc0516dd79e5",
+      "Name": "MRD Account Status",
+      "Type": "SNOWFLAKE",
+      "DataSourceParameters": {
+        "snowflakeParameters": {
+          "host": "fiservgbsdev.us-west-2.privatelink.snowflakecomputing.com",
+          "database": "CRANALYTICSDEV",
+          "warehouse": "CRANALYTICS_WH",
+          "authenticationType": "KEYPAIR"
+        }
+      },
+      "VpcConnectionProperties": {
+        "vpcConnectionArn": "arn:aws:quicksight:us-east-1:841162682218:vpcConnection/5f92f9ee-ce2f-4ea2-aa8d-19b6d32d211b"
+      }
+    }
+  ],
+  "count": 1,
+  "timestamp": "2026-10-07 14:20:18.076803"
+}
